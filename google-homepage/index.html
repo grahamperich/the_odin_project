@@ -5,12 +5,12 @@
 
 		<title>Google Homepage</title>
 
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
 <body>
-<header>
 
+<header>
 	<nav>
 	 	<ul>
 	 		<div class="topnav">
@@ -21,50 +21,43 @@
 		</ul>
 	</nav>
 
-	<div class="clear"></div>
+	<div class="clear"></div> <!-- clears float --> 
+
 </header>		
 
 
-	<div class="container">
+	<div class="container"> <!-- logo and search box --> 
 
 		<h1><img src="images/logo.png"></h1>
-
 			<form>
-			<input type="text" name="Search">
+				<input type="text" name="Search">
 			</form>
+
 		<div class="search-container">	
 		<ul>
-		
-			<li><a href="#"><img src="images/search.png"></a></li>
-			<li><a href="#"><img src="images/lucky.png"></a></li>
-		
+			<li><a href="#"><img src="images/search.png" class="shadow"></a></li>
+			<li><a href="#"><img src="images/lucky.png" class="shadow"></a></li>
 		</ul>
-		</div>	
-
-
-
- 
+		</div>	<!-- .search-container --> 
 	</div><!-- .container --> 
 
-<div class="clear"></div>
+<div class="clear"></div> <!-- clears float --> 
 
-</body>
 
-	<div class="footnav">
-
-	<ul>
-		<li>Advertising</li>
-		<li>Business</li>
-		<li>About</li>
-			<li>Privacy</li>
-			<li>Terms</li>
-			<li>Settings</li>
-		
-	</ul>
+<div class="footer">
+		<span class="footer-left">
+			<a href="#" class="underline-on-hover">Advertising</a>
+			<a href="#" class="underline-on-hover">Business</a>
+			<a href="#" class="underline-on-hover">About</a>
+		</span>
+		<span class="footer-right">
+			<a href="#" class="underline-on-hover">Settings</a>
+			<a href="#" class="underline-on-hover">Privacy and Terms</a>
+		</span>
 	
 </div><!-- .footer -->
 
 
-
+</body>
 	
 </html>
