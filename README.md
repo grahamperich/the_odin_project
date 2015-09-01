@@ -1,1 +1,1 @@
-#This repo contains some coding challenges as part of The Odin Project
+#This repo contains assignments from The Odin Project (an online web dev course) that I have completed or am in the process of completing.
