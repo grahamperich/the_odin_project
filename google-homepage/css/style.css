@@ -1,68 +1,38 @@
-body {
-  line-height: 1.5;
-
-  /* Full Page Background Receipe */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  font-family: arial, sans-serif;
+html, body {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+font-family: arial, sans-serif;
+line-height: 1.5;
 }
 
-.clear {
-	clear: both;
-}
+
+
+/* global css stuff */
+.underline-on-hover:hover {text-decoration: underline;}
+.clear {clear: both;} /* always clear floats */
 
 .container {
-  width: 900px;
+  width: 980px;
   margin: 0 auto;
+  position: relative;
 }
 
-.nav-container {
-	width: 1070px;
-	margin: 0 auto;
-}
+/* Top Nav Bar */
 
-.underline-on-hover:hover {
-	text-decoration: underline;
+.topnav {
+	margin-right: 29px;
 }
-
-h1, form {
-	text-align: center;
-	margin-top: 150px;
-	padding: 0;
-	margin-bottom: -160px;
-}
-
-input[type=text] {
-	padding: 5px;
-	border:1px solid #ccc; 
-	
-}
-
-input[type=text]:focus {
-	border:1px solid rgba(52, 152, 219,1.0); 
-	outline: 0;
-}
-
-input {
-	width: 500px;
-	height: 20px;
-}
-
-h1 img {
-	max-width: 320px;
-}
-
 nav ul li {
 	float: right;
+	margin-left: 20px;
 	list-style: none;
 	position: relative;
 	font-size: 14px;
 }
 
 nav ul li a {
-	margin-left: 20px;
-	padding: 4px;
 	color: black;
 	text-decoration: none;
 	display: inline;
@@ -72,6 +42,10 @@ nav ul li a img {
 	max-width: 70px;
 }
 
+
+
+
+/* Search bar stuff */
 .search-container {
   width: 360px;
   margin: 0 auto;
@@ -79,21 +53,73 @@ nav ul li a img {
   margin-top: 180px;
 }
 
-div ul li img {
+.search-container ul li img {
 	max-height: 30px;
 }
 
-div ul li {
+.search-container ul li {
 	float: left;
 	list-style: none;
 	position: relative;
 	font-size: 14px;
+	margin-top: -30px;
 }
 
-div ul li a {
+.search-container ul li a {
 	margin-left: 20px;
 	padding: 4px;
 	color: black;
 	text-decoration: none;
 	display: inline;
 }
+
+
+h1, form {
+	text-align: center;
+	margin-top: 120px;
+	padding: 0;
+	margin-bottom: -120px;
+}
+
+h1 img {max-width: 320px;}
+
+input {width: 500px; height: 20px;}
+input[type=text] {
+	padding: 5px;
+	border:1px solid #ccc; 	
+}
+
+input[type=text]:focus {
+	border:1px solid rgba(52, 152, 219,1.0); 
+	outline: 0;
+}
+
+/* Footer Nav Bar */
+
+.footnav {
+	position: absolute;
+	width: 100%;
+	height: 55px;
+	overflow: hidden;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #f2f2f2;
+}
+
+.footnav ul li {
+	float: left;
+	list-style: none;
+	font-size: 13px;
+	padding: 16px;
+	color: rgba(44, 62, 80,.80);
+}
+
+.footnavright {
+	float: right
+
+}
+
+
+
