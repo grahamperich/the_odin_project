@@ -1,1 +1,3 @@
-#This repo contains assignments from The Odin Project (an online web dev course) that I have completed or am in the process of completing.
+#This repo contains assignments from The Odin Project
+
+The Odin Project is an online web development course (http://www.theodinproject.com/)
